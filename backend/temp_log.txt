@@ -1,0 +1,100 @@
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:22.944Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:23.144Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:23.321Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:23.506Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:23.665Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:30.773Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:23:54.104Z] GET /health
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+[2026-02-20T10:24:57.770Z] GET /api/auth/google
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\src\server.ts:48:16
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:342:13)
+    at C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\index.js:291:5)
+    at read (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (C:\Users\Durga\Downloads\Kimi_Agent_Feature List Booking System (1)\backend\node_modules\router\lib\layer.js:152:17)

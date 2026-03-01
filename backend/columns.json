@@ -1,0 +1,62 @@
+[
+  {
+    "column_name": "id"
+  },
+  {
+    "column_name": "customerId"
+  },
+  {
+    "column_name": "employeeId"
+  },
+  {
+    "column_name": "serviceId"
+  },
+  {
+    "column_name": "bookingDate"
+  },
+  {
+    "column_name": "startTime"
+  },
+  {
+    "column_name": "endTime"
+  },
+  {
+    "column_name": "totalPrice"
+  },
+  {
+    "column_name": "status"
+  },
+  {
+    "column_name": "createdAt"
+  },
+  {
+    "column_name": "updatedAt"
+  },
+  {
+    "column_name": "roomId"
+  },
+  {
+    "column_name": "totalAmount"
+  },
+  {
+    "column_name": "paymentStatus"
+  },
+  {
+    "column_name": "bookingNumber"
+  },
+  {
+    "column_name": "taxes"
+  },
+  {
+    "column_name": "rescheduleDate"
+  },
+  {
+    "column_name": "rescheduleTime"
+  },
+  {
+    "column_name": "requestedCancelReason"
+  },
+  {
+    "column_name": "packageId"
+  }
+]

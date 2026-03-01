@@ -1,0 +1,17 @@
+[
+  {
+    "enumlabel": "cash"
+  },
+  {
+    "enumlabel": "card"
+  },
+  {
+    "enumlabel": "online"
+  },
+  {
+    "enumlabel": "gift_card"
+  },
+  {
+    "enumlabel": "wallet"
+  }
+]

@@ -1,0 +1,9 @@
+error TS6059: File 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/migrate_employees.ts' is not under 'rootDir' 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+error TS6059: File 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/seed_employee.ts' is not under 'rootDir' 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+error TS6059: File 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/test_create_employee.ts' is not under 'rootDir' 'C:/Users/Durga/Downloads/Kimi_Agent_Feature List Booking System (1)/backend/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
