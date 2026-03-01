@@ -1,16 +1,16 @@
 # Dependency directories
 node_modules/
-app/node_modules/
+frontend/node_modules/
 backend/node_modules/
 
 # Build outputs
 /dist/
-app/dist/
+frontend/dist/
 backend/dist/
 
 # Local env files
 .env
-app/.env
+frontend/.env
 backend/.env
 .env.local
 .env.development.local
