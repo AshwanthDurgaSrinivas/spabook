@@ -4,7 +4,10 @@ export interface LoyaltyTier {
     id: number;
     name: string;
     minSpent: number;
+    minPoints?: number; // Added for compatibility
     pointsMultiplier: number;
+    discountPercentage?: number; // Added for compatibility
+    discountPercent?: number; // Added for compatibility
     benefits: any; // JSONB
     color: string;
     earnRatio: number;

@@ -46,7 +46,7 @@ export function CustomerDetailPage() {
             setCustomer(custData);
             setCustomerBookings(bookingsData.filter(b => b.customerId === customerId));
             setLoyalty(loyaltyData);
-            setAllTiers(tiersData.sort((a, b) => a.minPoints - b.minPoints));
+            setAllTiers(tiersData.sort((a, b) => (Number(a.minSpent) || 0) - (Number(b.minSpent) || 0)));
         } catch (error) {
             console.error('Failed to load customer details', error);
             toast.error('Failed to load customer details');
@@ -302,12 +302,14 @@ export function CustomerDetailPage() {
                                             <p className="text-4xl font-bold mt-1">{(loyalty.currentPoints || 0).toLocaleString()}</p>
 
                                             {(() => {
-                                                const nextTier = allTiers.find(t => t.minPoints > (loyalty.currentPoints || 0));
+                                                const currentSpent = loyalty.totalSpent || 0;
+                                                const nextTier = allTiers.find(t => (Number(t.minSpent) || 0) > currentSpent);
                                                 if (nextTier) {
-                                                    const progress = Math.min(((loyalty.currentPoints || 0) / nextTier.minPoints) * 100, 100);
+                                                    const nextTierMinSpent = Number(nextTier.minSpent) || 1;
+                                                    const progress = Math.min((currentSpent / nextTierMinSpent) * 100, 100);
                                                     return (
                                                         <>
-                                                            <p className="text-xs mt-4 opacity-75">Next tier in {nextTier.minPoints - loyalty.currentPoints} points ({nextTier.name})</p>
+                                                            <p className="text-xs mt-4 opacity-75">Next tier at ${nextTierMinSpent.toLocaleString()} spent ({nextTier.name})</p>
                                                             <Progress value={progress} className="h-2 bg-white/20 mt-2" />
                                                         </>
                                                     );
@@ -321,7 +323,7 @@ export function CustomerDetailPage() {
                                             <h4 className="font-bold text-gray-800 mb-4">Active Benefits</h4>
                                             <ul className="space-y-2">
                                                 <li className="flex items-center gap-2 text-sm text-gray-600">
-                                                    <CheckCircle className="w-4 h-4 text-green-500" /> {loyalty.tier?.discountPercentage || 0}% discount on all services
+                                                    <CheckCircle className="w-4 h-4 text-green-500" /> {loyalty.tier?.discountPercent || loyalty.tier?.discountPercentage || 0}% discount on all services
                                                 </li>
                                                 <li className="flex items-center gap-2 text-sm text-gray-600">
                                                     <CheckCircle className="w-4 h-4 text-green-500" /> Free birthday treatment
