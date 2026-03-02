@@ -433,10 +433,9 @@ const startServer = async () => {
         }
         // ────────────────────────────────────────────────────────────────────────
 
-
         httpServer.listen(PORT, () => {
             console.log(`Server running on port ${PORT}`);
-            console.log('Backend server active. Version: Phone-Fix-v2.2');
+            console.log('Backend server active. Version: Phone-Fix-v2.1');
         });
     } catch (error) {
         console.error('Failed to start server:', error);
@@ -444,6 +443,3 @@ const startServer = async () => {
 };
 
 startServer();
-
-/ /   t r i g g e r  
- 
